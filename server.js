@@ -12,7 +12,7 @@ var customer = require('./customer');
 var admin  =require('./admin');
 var flights = require('./flights');
 // Admin requests
-const url = 'mongodb://localhost:27017/myproject';
+const url = 'mongodb+srv://harshit:test123@cluster0.tqfro4n.mongodb.net/';
 app.post('/add_flight',function (req,res) {
     admin.addFlight(req.body,function (result) {
         res.end();

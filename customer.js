@@ -5,7 +5,7 @@
 
 var mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
-const url = 'mongodb://localhost:27017/myproject';
+const url = 'mongodb+srv://harshit:test123@cluster0.tqfro4n.mongodb.net/';
 
 // Write your functions here and remember to export them.
 

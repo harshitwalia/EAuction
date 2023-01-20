@@ -1,7 +1,7 @@
 const  mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
 const assert = require('assert');
-const url = 'mongodb://localhost:27017/myproject';
+const url = 'mongodb+srv://harshit:test123@cluster0.tqfro4n.mongodb.net/';
 
 function addFLight(details,callback) {
     mongoClient.connect(url,function (error,client) {
