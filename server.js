@@ -262,8 +262,8 @@ MongoClient.connect(url , function (err, db) {
 */
 
 
-app.listen(5000, function () {
+app.listen(process.env.PORT, function () {
 
-    console.log("Server running on port 5000");
+    console.log('Server running on port '+process.env.PORT);
 
 });
